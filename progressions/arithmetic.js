@@ -11,7 +11,7 @@ class ArithmeticProgression {
   }
 
   getRow(pos, length){
-    var result = [], first = this.get(p);
+    var result = [], first = this.get(pos);
     for(var i = this.f; i < length; i++){
       result.push( first + i * this.d );
     }
