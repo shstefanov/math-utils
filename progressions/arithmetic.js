@@ -1,4 +1,4 @@
-class Progression {
+class ArithmeticProgression {
   
   
   constructor(f, d){
@@ -9,4 +9,10 @@ class Progression {
   get(n){
     return f + n * this.d;
   }
+
+  getRow(pos, length){
+
+  }
 }
+
+module.exports = ArithmeticProgression;
