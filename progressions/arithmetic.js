@@ -7,7 +7,7 @@ class ArithmeticProgression {
   }
 
   get(n){
-    return f + n * this.d;
+    return this.f + n * this.d;
   }
 
   getRow(pos, length){
